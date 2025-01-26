@@ -1,0 +1,36 @@
+Epoch 1/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 5s 110ms/step - accuracy: 0.0161 - loss: 5.2103 - val_accuracy: 0.0927 - val_loss: 4.8732
+Epoch 2/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 102ms/step - accuracy: 0.0575 - loss: 4.8404 - val_accuracy: 0.0927 - val_loss: 4.7011
+Epoch 3/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.0547 - loss: 4.6293 - val_accuracy: 0.1073 - val_loss: 4.6492
+Epoch 4/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 102ms/step - accuracy: 0.0738 - loss: 4.4936 - val_accuracy: 0.1268 - val_loss: 4.6368
+Epoch 5/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 104ms/step - accuracy: 0.0880 - loss: 4.3347 - val_accuracy: 0.1415 - val_loss: 4.5998
+Epoch 6/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 107ms/step - accuracy: 0.1581 - loss: 4.0034 - val_accuracy: 0.1463 - val_loss: 4.5808
+Epoch 7/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 102ms/step - accuracy: 0.2345 - loss: 3.6110 - val_accuracy: 0.1415 - val_loss: 4.7786
+Epoch 8/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 101ms/step - accuracy: 0.2789 - loss: 3.2059 - val_accuracy: 0.1415 - val_loss: 4.9877
+Epoch 9/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 102ms/step - accuracy: 0.2947 - loss: 2.8940 - val_accuracy: 0.1268 - val_loss: 5.0127
+Epoch 10/10
+30/30 ━━━━━━━━━━━━━━━━━━━━ 3s 101ms/step - accuracy: 0.4371 - loss: 2.3692 - val_accuracy: 0.1463 - val_loss: 5.1419
+
+Ocena modelu na danych testowych:
+7/7 ━━━━━━━━━━━━━━━━━━━━ 0s 24ms/step - accuracy: 0.1295 - loss: 5.2128
+Dokładność na zbiorze testowym: 13.59%
+
+Przykładowe przewidywania:
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 86ms/step
+Prawdziwy gatunek: rap, Przewidywany gatunek: jazz rap
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 31ms/step
+Prawdziwy gatunek: phonk, Przewidywany gatunek: hard bop
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 30ms/step
+Prawdziwy gatunek: vocal jazz, Przewidywany gatunek: hard bop
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+Prawdziwy gatunek: reggae, Przewidywany gatunek: psychedelic rock
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 32ms/step
+Prawdziwy gatunek: r&b, Przewidywany gatunek: classic rock
